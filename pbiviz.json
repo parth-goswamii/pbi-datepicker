@@ -1,0 +1,25 @@
+{
+  "visual": {
+    "name": "summaryDateRangeFilterFE4E",
+    "displayName": "Summary Date Range Filter",
+    "guid": "summaryDateRangeFilterFE4E",
+    "visualClassName": "Visual",
+    "version": "1.0.0.5",
+    "description": "Summary Date Range Filter Visual with drawer-style date picker and Apply-to-report filtering",
+    "supportUrl": "https://example.com",
+    "gitHubUrl": "https://example.com"
+  },
+  "apiVersion": "5.11.0",
+  "author": {
+    "name": "Omphalos",
+    "email": "your.email@example.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}

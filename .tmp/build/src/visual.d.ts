@@ -1,0 +1,35 @@
+import powerbi from "powerbi-visuals-api";
+import IVisual = powerbi.extensibility.visual.IVisual;
+import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions;
+import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions;
+export declare class Visual implements IVisual {
+    private host;
+    private root;
+    private current;
+    private isExpanded;
+    private tableName;
+    private columnName;
+    private viewportWidth;
+    private viewportHeight;
+    private static styleInjected;
+    constructor(options: VisualConstructorOptions);
+    update(options: VisualUpdateOptions): void;
+    private render;
+    private buildFullLayout;
+    private buildCompactLayout;
+    private buildCompactPresets;
+    private buildPresets;
+    private applyPreset;
+    private buildCalendarCard;
+    private buildCalendarTable;
+    private persistSelection;
+    private applyFilterToReport;
+    private clearFilter;
+    private stripTime;
+    private pad2;
+    private toInputDate;
+    private formatRange;
+    private getMonthLabel;
+    private dayCount;
+    private injectStyles;
+}
