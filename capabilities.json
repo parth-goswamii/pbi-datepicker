@@ -1,0 +1,53 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Date",
+            "name": "category",
+            "kind": "Grouping"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "categories": {
+                    "for": {
+                        "in": "category"
+                    }
+                }
+            }
+        }
+    ],
+    "privileges": [
+        {
+            "name": "WebAccess",
+            "essential": true,
+            "parameters": ["*"]
+        }
+    ],
+    "objects": {
+        "general": {
+            "properties": {
+                "filter": {
+                    "type": {
+                        "filter": true
+                    }
+                },
+                "currentStart": {
+                    "type": {
+                        "text": true
+                    }
+                },
+                "currentEnd": {
+                    "type": {
+                        "text": true
+                    }
+                },
+                "dayCountCurrent": {
+                    "type": {
+                        "numeric": true
+                    }
+                }
+            }
+        }
+    }
+}
